@@ -1,0 +1,92 @@
+css
+Copy code
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.resume {
+    background: #fff;
+    width: 800px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0;
+    color: #666;
+    font-size: 1.2em;
+}
+
+.contact-info {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+.section h2 {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-left: 5px solid #3498db;
+    margin: 0 -20px;
+    padding-left: 20px;
+    color: #333;
+}
+
+.experience h3 {
+    margin: 10px 0 5px;
+    font-size: 1.5em;
+}
+
+.experience p {
+    margin: 0;
+    color: #666;
+}
+
+.experience ul {
+    list-style: disc;
+    margin: 10px 0 0 20px;
+    padding: 0;
+    color: #555;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills li {
+    background: #3498db;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 3px;
+}
